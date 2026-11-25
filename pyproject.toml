@@ -3,7 +3,7 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "dialog-bot"
+name = "dialogpm-bot"
 version = "0.1.0"
 description = "Bot API client for Dialog, the private messenger: send notifications, pictures and buttons to the people who started your bot."
 readme = "README.md"

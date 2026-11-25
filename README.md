@@ -1,4 +1,4 @@
-# dialog-bot
+# dialogpm-bot
 
 Python client for the Bot API of [Dialog](https://dialog.pm), the private messenger. Send
 yourself (or anyone who starts your bot) a notification from a script, a server or a cron
@@ -11,7 +11,7 @@ job: text, pictures and buttons.
 ## Install
 
 ```
-pip install dialog-bot
+pip install dialogpm-bot
 ```
 
 ## Create a bot
