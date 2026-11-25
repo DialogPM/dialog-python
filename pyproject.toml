@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dialog-bot"
+version = "0.1.0"
+description = "Bot API client for Dialog, the private messenger: send notifications, pictures and buttons to the people who started your bot."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+authors = [{ name = "Dialog" }]
+keywords = ["dialog", "bot", "messenger", "notifications", "chat", "bot-api"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Communications :: Chat",
+  "Topic :: Software Development :: Libraries",
+  "Typing :: Typed",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://dialog.pm"
+Documentation = "https://github.com/DialogPM/dialog-python#readme"
+Source = "https://github.com/DialogPM/dialog-python"
+Issues = "https://github.com/DialogPM/dialog-python/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+dialog_bot = ["py.typed"]
