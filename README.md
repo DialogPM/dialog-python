@@ -4,7 +4,7 @@ Python client for the Bot API of [Dialog](https://dialog.pm), the private messen
 yourself (or anyone who starts your bot) a notification from a script, a server or a cron
 job: text, pictures and buttons.
 
-- No dependencies, Python 3.9+.
+- No dependencies, Python 3.10+.
 - A bot writes only to people who started it, and stops when they stop it.
 - The bot never learns who it is talking to: a chat id is random and different for every bot.
 
